@@ -12,7 +12,7 @@
 
 # Specify the path to boost source code dir 
 #BOOST_SRC_DIR=/home/declan/Documents/zone/low/Boost-for-Android/src
-BOOST_SRC_DIR=..
+BOOST_SRC_DIR=`pwd`/..
 
 
 #------------------------------------------------------------------------------------------
