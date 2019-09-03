@@ -12,7 +12,8 @@
 
 # Specify the path to boost source code dir 
 #BOOST_SRC_DIR=/home/declan/Documents/zone/low/Boost-for-Android/src
-BOOST_SRC_DIR=/home/docker-share/boost-src
+BOOST_SRC_DIR=..
+
 
 #------------------------------------------------------------------------------------------
 # Specify the version of boost youre building
@@ -21,7 +22,7 @@ BOOST_VERSION=1.69.0
 
 #------------------------------------------------------------------------------------------
 # Specify path to the (Google) Ndk  (by default  downloded to "..sdk/ndk-bundle" by android studio)
-export ANDROID_NDK_ROOT=/home/android/android-ndk-r19c
+export ANDROID_NDK_ROOT=~/Library/Android/sdk/ndk/20.0.5594570
 
 #------------------------------------------------------------------------------------------
 # Modify if desired
@@ -50,7 +51,7 @@ ABIS="armeabi-v7a,arm64-v8a,x86,x86_64"
 # whether to build shared or static libraries (or both)          
 # possible values:   {shared, static}
 # LINKAGE="shared"               
-LINKAGE="shared,static"
+LINKAGE="static"
 
 
 #--------------------------------------------------------------------------------------
